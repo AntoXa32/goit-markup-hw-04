@@ -237,11 +237,6 @@ img {
     margin-bottom: 8px;
 }
 
-.strategy-svg {
-    width: 64px;
-    height: 64px;
-}
-
 .menu-strategy-title {
     color: #2E2F42;
     font-size: 20px;
@@ -313,7 +308,7 @@ img {
 
 .soc-list {
     display: flex;
-    gap: 16px;
+    gap: 24px;
     justify-content: center;
     align-items: center;
 }
@@ -335,8 +330,6 @@ img {
 }
 
 .soc-svg {
-    width: 16px;
-    height: 16px;
     fill: #f4f4fd;
 }
 
@@ -372,7 +365,7 @@ img {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-item:hover .portfolio-text-wrap {
+.portfolio-item:hover {
     transform: translateY(0%);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -511,8 +504,6 @@ img {
 }
 
 .end-soc-svg {
-    width: 24px;
-    height: 24px;
     fill: #f4f4fd;
 }
 
